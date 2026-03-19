@@ -9,7 +9,7 @@ namespace TestGeometry
     public class TestTriangleCI
     {
         [Fact]
-        public void CreateTriangle() 
+        public void CreateTriangle() //комментарий
         {
             ClassGeometry.Triangle tri = new ClassGeometry.Triangle();
             Assert.NotNull(tri);
